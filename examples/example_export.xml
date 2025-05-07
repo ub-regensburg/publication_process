@@ -1,1 +1,184 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="\APP\plugins\importexport\lzv\schema\publication_process.xsd">
+  <article_source>
+    <dc:title xml:lang="en">Title of the Article in Question</dc:title>
+    <dc:creator>Lastname, Firstname</dc:creator>
+    <dc:subject xml:lang="en">title</dc:subject>
+    <dc:subject xml:lang="en">article</dc:subject>
+    <dc:subject xml:lang="en">question</dc:subject>
+    <dc:description xml:lang="en">This is an abstract for the Article in Question</dc:description>
+    <dc:publisher xml:lang="de">Publizierende Zeitschrift</dc:publisher>
+    <dc:publisher xml:lang="en">Publishing Journal</dc:publisher>
+    <dc:date>2024-08-09</dc:date>
+    <dc:type xml:lang="en-US">journal article</dc:type>
+    <dc:format>application/pdf</dc:format>
+    <dc:identifier type="url">https://link-to-article</dc:identifier>
+    <dc:identifier type="doi">DOI-12345</dc:identifier>
+    <dc:source>Publishing Journal; Vol. 25 (2024)</dc:source>
+    <dc:source>Journal ISSN</dc:source>
+    <dc:language>en</dc:language>
+    <dc:relation>https://link-to-article-pdf</relation>
+    <dc:rights>Lastname, Firstname, Year</dc:rights>
+    <dc:rights>https://creativecommons.org/licenses/by/4.0</dc:rights>
+  </article_source>
+  <manuscript>
+    <dc:creator>Editor 1, Firstname</dc:creator>
+    <dc:date>2024-04-22</dc:date>
+    <dc:type xml:lang="en-US">preprint</dc:type>
+    <dc:format>application/vnd.openxmlformats-officedocument.wordprocessingml.document</dc:format>
+    <dc:relation>manuscript/2060/Feedback Letter.docx</dc:relation>
+  </manuscript>
+  <manuscript>
+    <dc:creator>Lastname, Firstname</dc:creator>
+    <dc:date>2024-04-22</dc:date>
+    <dc:type xml:lang="en-US">preprint</dc:type>
+    <dc:format>application/vnd.openxmlformats-officedocument.wordprocessingml.document</dc:format>
+    <dc:relation>manuscript/2059/article_text.docx</dc:relation>
+  </manuscript>
+  <manuscript>
+    <dc:creator>Lastname, Firstname</dc:creator>
+    <dc:date>2024-02-07</dc:date>
+    <dc:type xml:lang="en-US">preprint</dc:type>
+    <dc:format>application/vnd.openxmlformats-officedocument.wordprocessingml.document</dc:format>
+    <dc:relation>manuscript/2056/article_text.docx</dc:relation>
+  </manuscript>
+  <peer_review>
+    <reviewed_manuscript>
+      <dc:creator>Lastname, Firstname</dc:creator>
+      <dc:date>2024-04-22</dc:date>
+      <dc:type xml:lang="en-US">preprint</dc:type>
+      <dc:format>application/vnd.openxmlformats-officedocument.wordprocessingml.document</dc:format>
+      <dc:relation>peer_review/reviewed_manuscript/2061/article_text.docx</dc:relation>
+    </reviewed_manuscript>
+    <reviewed_manuscript>
+      <dc:creator>Reviewer 1, Firstname</dc:creator>
+      <dc:date>2024-05-27</dc:date>
+      <dc:type xml:lang="en-US">preprint</dc:type>
+      <dc:format>application/vnd.openxmlformats-officedocument.wordprocessingml.document</dc:format>
+      <dc:relation>peer_review/reviewed_manuscript/2085/article_text_revised.docx</dc:relation>
+    </reviewed_manuscript>
+    <decision>
+		New Review Round
+		<dc:type>peer_review</dc:type>
+		<dc:creator>Reviewer 1, Firstname</dc:creator>
+		<dc:date>2024-06-07</dc:date>
+	</decision>
+  </peer_review>
+  <peer_review>
+    <reviewed_manuscript>
+      <dc:creator>Lastname, Firstname</dc:creator>
+      <dc:date>2024-06-07</dc:date>
+      <dc:type xml:lang="en-US">preprint</dc:type>
+      <dc:format>application/vnd.openxmlformats-officedocument.wordprocessingml.document</dc:format>
+      <dc:relation>peer_review/reviewed_manuscript/2087/article_text_2.docx</dc:relation>
+    </reviewed_manuscript>
+    <reviewed_manuscript>
+      <dc:creator>Reviewer 2, Firstname</dc:creator>
+      <dc:date>2024-06-07</dc:date>
+      <dc:type xml:lang="en-US">preprint</dc:type>
+      <dc:format>application/vnd.openxmlformats-officedocument.wordprocessingml.document</dc:format>
+      <dc:relation>peer_review/reviewed_manuscript/2088/article_text_2_revised.docx</dc:relation>
+    </reviewed_manuscript>
+    <reviewed_manuscript>
+      <dc:creator>Reviewer 3, Firstname</dc:creator>
+      <dc:date>2024-06-24</dc:date>
+      <dc:type xml:lang="en-US">preprint</dc:type>
+      <dc:format>application/vnd.openxmlformats-officedocument.wordprocessingml.document</dc:format>
+      <dc:relation>peer_review/reviewed_manuscript/2093/article_text_2_revised_2.docx</dc:relation>
+    </reviewed_manuscript>
+    <decision>
+		New Review Round
+		<dc:type>peer_review</dc:type>
+		<dc:creator>Reviewer 2, Firstname</dc:creator>
+		<dc:date>2024-06-25</dc:date>
+	</decision>
+  </peer_review>
+  <peer_review>
+    <reviewed_manuscript>
+      <dc:creator>Lastname, Firstname</dc:creator>
+      <dc:date>2024-06-25</dc:date>
+      <dc:type xml:lang="en-US">preprint</dc:type>
+      <dc:format>application/vnd.openxmlformats-officedocument.wordprocessingml.document</dc:format>
+      <dc:relation>peer_review/reviewed_manuscript/2097/article_text_3.docx</dc:relation>
+    </reviewed_manuscript>
+    <reviewed_manuscript>
+      <dc:creator>Reviewer 2, Firstname</dc:creator>
+      <dc:date>2024-06-25</dc:date>
+      <dc:type xml:lang="en-US">preprint</dc:type>
+      <dc:format>application/vnd.openxmlformats-officedocument.wordprocessingml.document</dc:format>
+      <dc:relation>peer_review/reviewed_manuscript/2098/article_text_3_revised.docx</dc:relation>
+    </reviewed_manuscript>
+    <reviewed_manuscript>
+      <dc:creator>Reviewer 3, Firstname</dc:creator>
+      <dc:date>2024-07-12</dc:date>
+      <dc:type xml:lang="en-US">preprint</dc:type>
+      <dc:format>application/vnd.openxmlformats-officedocument.wordprocessingml.document</dc:format>
+      <dc:relation>peer_review/reviewed_manuscript/2115/article_text_3_revised_2.docx</dc:relation>
+    </reviewed_manuscript>
+    <decision>
+		Internal Review
+		<dc:type>peer_review</dc:type>
+		<dc:creator>Reviewer 2, Firstname</dc:creator>
+		<dc:date>2024-07-26</dc:date>
+	</decision>
+  </peer_review>
+  <peer_review>
+    <comment>
+		<![CDATA[Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. ]]>
+		<dc:date>2024-04-22</dc:date>
+		<dc:creator>Editor, Firstname</dc:creator>
+		<dc:title>Subject of the Comment</dc:title>
+	</comment>
+    <comment><![CDATA[At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. ]]>
+		<dc:date>2024-05-25</dc:date>
+		<dc:creator>Lastname, Firstname</dc:creator>
+		<dc:title>Revised Article</dc:title>
+	</comment>
+    <comment><![CDATA[Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. ]]>
+		<dc:date>2024-06-07</dc:date>
+		<dc:creator>Editor, Firstname</dc:creator>
+		<dc:title>Revised Article Feedback</dc:title>
+	</comment>
+    <comment><![CDATA[At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. ]]>
+		<dc:date>2024-06-21</dc:date>
+		<dc:creator>Lastname, Firstname</dc:creator>
+		<dc:title>Revised Article (2nd Round) 21.6.2024</dc:title>
+	</comment>
+    <comment><![CDATA[Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. ]]>
+		<dc:date>2024-06-24</dc:date>
+		<dc:creator>Editor, Firstname</dc:creator>
+		<dc:title/>
+	</comment>
+    <comment><![CDATA[At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. ]]>
+		<dc:date>2024-06-25</dc:date>
+		<dc:creator>Editor, Firstname</dc:creator>
+		<dc:title>Revised Article 2 Feedback</dc:title>
+	</comment>
+    <comment><![CDATA[Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. ]]>
+		<dc:date>2024-07-11</dc:date>
+		<dc:creator>Lastname, Firstname</dc:creator>
+		<dc:title>Updated Article</dc:title>
+	</comment>
+  </peer_review>
+  <publication_proof>
+    <dc:creator>Copyeditor, Firstname</dc:creator>
+    <dc:date>2024-08-09</dc:date>
+    <dc:type xml:lang="en-US">preprint</dc:type>
+    <dc:format>application/pdf</dc:format>
+    <dc:relation>publication_proof/2137/galley proof_final page numbers.pdf</dc:relation>
+  </publication_proof>
+  <publication_proof>
+    <dc:creator>Copyeditor, Firstname</dc:creator>
+    <dc:date>2024-07-26</dc:date>
+    <dc:type xml:lang="en-US">preprint</dc:type>
+    <dc:format>application/pdf</dc:format>
+    <dc:relation>publication_proof/2127/proof_final page numbers.pdf</dc:relation>
+  </publication_proof>
+  <publication_proof>
+    <dc:creator>Lastname, Firstname</dc:creator>
+    <dc:date>2024-07-26</dc:date>
+    <dc:type xml:lang="en-US">preprint</dc:type>
+    <dc:format>application/vnd.openxmlformats-officedocument.wordprocessingml.document</dc:format>
+    <dc:relation>publication_proof/2126/galley proof_final page numbers.docx</dc:relation>
+  </publication_proof>
+</article>
